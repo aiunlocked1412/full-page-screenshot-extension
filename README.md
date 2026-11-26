@@ -117,6 +117,14 @@ result.html / result.js
 
 จะได้ไฟล์ `dist/full-page-screenshot-v<version>.zip` ที่มีเฉพาะไฟล์ที่ extension ใช้งานจริง นำไปอัปโหลดที่ [Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/devconsole) ได้เลย ถ้าจะอัปเดตเวอร์ชัน ให้แก้ `version` ใน `manifest.json` ก่อนแพ็ก
 
+ภาพสำหรับหน้า listing อยู่ใน [`docs/store/`](docs/store):
+
+| ไฟล์ | ใช้ในช่อง |
+| --- | --- |
+| `small-promo-tile-440x280.png` | Small promo tile |
+| `marquee-1400x560.png` | Marquee promo tile |
+| `screenshot-1.png` … `screenshot-5.png` (1280×800) | Screenshots |
+
 ช่อง **Privacy policy URL** ในหน้า Dashboard ใช้ลิงก์นี้ได้เลย:
 `https://github.com/aiunlocked1412/full-page-screenshot-extension/blob/main/PRIVACY.md`
 
