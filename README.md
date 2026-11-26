@@ -109,6 +109,14 @@ result.html / result.js
 - เว็บที่เลื่อนแล้วโหลดเนื้อหาเพิ่มไม่สิ้นสุด จะถ่ายได้สูงสุด 80 ช่วงหน้าจอ แก้ได้ที่ `MAX_FRAMES` ใน `background.js`
 - ภาพเคลื่อนไหวหรือวิดีโอในหน้าอาจไม่ต่อเนื่องระหว่างรอยต่อ
 
+## 📦 แพ็กไฟล์สำหรับ Chrome Web Store
+
+```bash
+./scripts/package.sh
+```
+
+จะได้ไฟล์ `dist/full-page-screenshot-v<version>.zip` ที่มีเฉพาะไฟล์ที่ extension ใช้งานจริง นำไปอัปโหลดที่ [Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/devconsole) ได้เลย ถ้าจะอัปเดตเวอร์ชัน ให้แก้ `version` ใน `manifest.json` ก่อนแพ็ก
+
 ## 🎨 สร้างไอคอนใหม่
 
 ```bash
