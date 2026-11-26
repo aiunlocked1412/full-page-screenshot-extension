@@ -87,7 +87,7 @@ result.html / result.js
   ดึงเฟรมทีละเฟรม → วาดต่อกันบน <canvas> → แบ่งไฟล์ถ้ายาวเกิน → PNG
 ```
 
-ภาพทั้งหมดอยู่ในหน่วยความจำของเบราว์เซอร์เท่านั้น ไม่มีการส่งข้อมูลออกนอกเครื่อง
+ภาพทั้งหมดอยู่ในหน่วยความจำของเบราว์เซอร์เท่านั้น ไม่มีการส่งข้อมูลออกนอกเครื่อง อ่านรายละเอียดได้ที่ [Privacy Policy](PRIVACY.md)
 
 ## 📁 โครงสร้างไฟล์
 
@@ -116,6 +116,9 @@ result.html / result.js
 ```
 
 จะได้ไฟล์ `dist/full-page-screenshot-v<version>.zip` ที่มีเฉพาะไฟล์ที่ extension ใช้งานจริง นำไปอัปโหลดที่ [Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/devconsole) ได้เลย ถ้าจะอัปเดตเวอร์ชัน ให้แก้ `version` ใน `manifest.json` ก่อนแพ็ก
+
+ช่อง **Privacy policy URL** ในหน้า Dashboard ใช้ลิงก์นี้ได้เลย:
+`https://github.com/aiunlocked1412/full-page-screenshot-extension/blob/main/PRIVACY.md`
 
 ## 🎨 สร้างไอคอนใหม่
 
