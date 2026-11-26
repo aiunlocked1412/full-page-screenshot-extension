@@ -1,0 +1,32 @@
+body {
+  width: 260px;
+  margin: 0;
+  padding: 16px;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #202124;
+}
+h1 { font-size: 15px; margin: 0 0 12px; }
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: #1a73e8;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover { background: #1765cc; }
+button:focus-visible { outline: 3px solid #8ab4f8; outline-offset: 2px; }
+button:disabled { background: #9aa0a6; cursor: wait; }
+#status { font-size: 12px; color: #5f6368; margin: 10px 0 4px; }
+#status.error { color: #d93025; }
+.hint { font-size: 11px; color: #80868b; margin: 0; }
+kbd {
+  font-family: inherit;
+  padding: 1px 4px;
+  border: 1px solid #dadce0;
+  border-radius: 3px;
+  background: #f1f3f4;
+}

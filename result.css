@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #e8eaed;
+  color: #202124;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+}
+h1 { font-size: 16px; margin: 0; overflow-wrap: anywhere; }
+#info { font-size: 12px; color: #5f6368; margin: 4px 0 0; }
+#info.error { color: #d93025; }
+.actions { display: flex; gap: 8px; flex-shrink: 0; }
+button {
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+  background: #fff;
+  cursor: pointer;
+}
+#downloadBtn { background: #1a73e8; border-color: #1a73e8; color: #fff; }
+button:disabled { opacity: .5; cursor: default; }
+button:focus-visible { outline: 3px solid #8ab4f8; outline-offset: 2px; }
+main { padding: 24px; display: flex; flex-direction: column; align-items: center; gap: 16px; }
+figure { margin: 0; max-width: 100%; }
+figure img { display: block; max-width: 100%; height: auto; box-shadow: 0 2px 10px rgba(0, 0, 0, .2); background: #fff; }
+figcaption { font-size: 12px; color: #5f6368; margin-top: 6px; }
+figcaption a { color: #1a73e8; }
