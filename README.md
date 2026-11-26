@@ -117,6 +117,8 @@ result.html / result.js
 
 จะได้ไฟล์ `dist/full-page-screenshot-v<version>.zip` ที่มีเฉพาะไฟล์ที่ extension ใช้งานจริง นำไปอัปโหลดที่ [Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/devconsole) ได้เลย ถ้าจะอัปเดตเวอร์ชัน ให้แก้ `version` ใน `manifest.json` ก่อนแพ็ก
 
+ขั้นตอนอัปโหลดแบบละเอียดพร้อมข้อความก๊อปวางทุกช่อง ดูได้ที่ [คู่มืออัปโหลด Chrome Web Store](docs/STORE_SUBMISSION.md)
+
 ภาพสำหรับหน้า listing อยู่ใน [`docs/store/`](docs/store):
 
 | ไฟล์ | ใช้ในช่อง |
