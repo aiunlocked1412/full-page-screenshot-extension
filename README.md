@@ -8,6 +8,10 @@
 
 Manifest V3 · ไม่มี dependency · ไม่ส่งข้อมูลออกนอกเครื่อง
 
+[![aiunlock.co](https://img.shields.io/badge/Made%20for-Claude%20Code%20Course%20·%20aiunlock.co-d97757?style=for-the-badge)](https://aiunlock.co)
+
+🎓 โปรเจกต์ประกอบการศึกษา **คอร์ส Claude Code** โดย [aiunlock.co](https://aiunlock.co)
+
 </div>
 
 <p align="center">
@@ -111,6 +115,13 @@ result.html / result.js
 pip install pillow
 python3 scripts/make_icons.py icons
 ```
+
+## 🙏 เครดิต
+
+โปรเจกต์นี้จัดทำขึ้นเพื่อ **ประกอบการศึกษา คอร์ส Claude Code** ของ **[aiunlock.co](https://aiunlock.co)**
+เป็นตัวอย่างการใช้ Claude Code สร้าง Chrome extension ตั้งแต่เขียนโค้ด ทดสอบ ทำไอคอน ทำสกรีนชอท ไปจนถึงขึ้น GitHub
+
+ถ้าอยากเรียนรู้การใช้ Claude Code ทำโปรเจกต์แบบนี้ ดูรายละเอียดคอร์สได้ที่ 👉 **[aiunlock.co](https://aiunlock.co)**
 
 ## 📄 License
 

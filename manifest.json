@@ -2,7 +2,8 @@
   "manifest_version": 3,
   "name": "Full Page Screenshot",
   "version": "1.0.0",
-  "description": "ถ่ายภาพหน้าเว็บแบบเต็มหน้า โดยเลื่อนลงจนสุดแล้วต่อภาพให้อัตโนมัติ",
+  "description": "ถ่ายภาพหน้าเว็บแบบเต็มหน้า โดยเลื่อนลงจนสุดแล้วต่อภาพให้อัตโนมัติ — ประกอบการศึกษาคอร์ส Claude Code โดย aiunlock.co",
+  "homepage_url": "https://aiunlock.co",
   "permissions": ["activeTab", "scripting"],
   "icons": {
     "16": "icons/icon16.png",
